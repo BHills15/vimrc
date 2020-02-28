@@ -1,4 +1,4 @@
-set nocompatible “ required
+set nocompatible " required
 filetype off     " required
 
 " set the runtime path to include Vundle and initialize
@@ -17,11 +17,11 @@ Plugin 'ecomba/vim-ruby-refactoring'
 
 Plugin 'posva/vim-vue'
 
-Plugin ‘thoughtbot/vim-rspec’
+Plugin 'thoughtbot/vim-rspec'
 
-Plugin ‘garbas/vim-snipmate’
+Plugin 'garbas/vim-snipmate'
 
-Plugin ‘Xuyuanp/nerdtree-git-plugin’
+Plugin 'preservim/nerdtree'
 
 
 " Basic git commands
@@ -29,7 +29,7 @@ Plugin 'tpope/vim-fugitive'
 
 " All of your Plugins must be added before the following line call vundle#end()  " required
 
-vundle#end() " required"
+call vundle#end()
 
 
 " Add recently accessed projects menu (project plugin)
@@ -88,7 +88,7 @@ set laststatus=2  " Always show status line.
 set mousehide  " Hide mouse after chars typed
 set mouse=a  " Mouse in all modes
 "-------------------------
-language messages en
+set langmenu=en_US.UTF-8
 set guifont=Monaco:h10:cRUSSIAN
 winsize 180 40
 " set encoding=utf-8
